@@ -1,11 +1,13 @@
-﻿
-string[] array = { "1234", "15", "-2", "comp" };
+﻿string[] array = { "1234", "15", "-2", "comp" };
+
+void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
         Console.WriteLine(array[i]);
     }
 }
+PrintArray(array);
 
 void SortArray(string[] Array)
 {
